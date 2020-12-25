@@ -12,7 +12,7 @@
     <artifactId>mssc-brewery-client</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>mssc-brewery-client</name>
-    <description>MSSC Brewery Client using RESTTemplate</description>
+    <description>MSSC Brewery Client using Spring RESTTemplate</description>
 
     <properties>
         <java.version>11</java.version>
