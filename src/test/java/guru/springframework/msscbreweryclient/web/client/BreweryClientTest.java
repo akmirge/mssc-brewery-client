@@ -27,12 +27,12 @@ class BreweryClientTest {
         BeerDto beer = BeerDto.builder().id(UUID.randomUUID()).beerName("New Name").build();
         URI uri = breweryClient.saveNewBeer(beer);
         assertNotNull(uri);
-        System.out.println("URI is: " + uri);
+        System.out.println("The Beer client URI is: " + uri);
     }
 
     @Test
     void updateBeer() {
-        BeerDto beer = BeerDto.builder().id(UUID.randomUUID()).beerName("Bersla").build();
+        BeerDto beer = BeerDto.builder().id(UUID.randomUUID()).beerName("King Fisher").build();
         breweryClient.updateBeer(UUID.randomUUID(), beer);
     }
 
